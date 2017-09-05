@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PagBrasil - Teste Gustavo Jantsch</title>
+    <style type="text/css">
+        label {
+            display: block;
+            width: 100px;
+            text-align: left;
+            border-color: #fff;
+        }
+        input[type="text"] {
+            width: 200px;
+        }
+        #status1 {
+            width: 100%;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Adicionar Transação</h1>
+    <hr>
+    <form name="frm">
+        <label for="nome">Nome: </label> <input type="text" id="nome">
+        <label for="nome">Email: </label> <input type="text" id="email">
+        <label for="nome">Valor: </label> <input type="text" id="valor">
+        <hr>
+        <input type="button" id="inserir" value="Inserir">
+        <input type="button" id="limpar1" value="Limpar">
+        <div id="status1"></div>
+    </form>
+    <hr>
+    <h1>Remover Transação</h1>
+    <hr>
+    <form name="frm">
+        <label for="nome">Id da transação: </label> <input type="text" id="id_transacao">
+        <hr>
+        <input type="button" id="remover" value="Remover">
+        <input type="button" id="limpar2" value="Limpar">
+        <div id="status2"></div>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
